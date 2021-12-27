@@ -1,0 +1,24 @@
+{
+  "name": "basics-node",
+  "version": "1.0.0",
+  "description": "Basics of Node.JS",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "lite": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MYSTYX7/basics-node.js.git"
+  },
+  "author": "MYSTYX",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MYSTYX7/basics-node.js/issues"
+  },
+  "homepage": "https://github.com/MYSTYX7/basics-node.js#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
