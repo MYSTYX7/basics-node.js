@@ -1,9 +1,4 @@
 # Basics of Node.JS
-
-## index.html
-Basic html file on which we will be working on.
-
-
 ## Installing Node.JS
 - Download latest version of Node.JS from [official website](https://nodejs.org/en/) according to user PC specifactions.
 > You may need to configure your PATH environmental variable in case you forgot to turn on the add to PATH during the installation steps.
@@ -44,3 +39,18 @@ Basic html file on which we will be working on.
 - Type `npm install lite-server --save-dev` in your terminal.
 - `--save-dev` specifies that this lite server is used for development dependency for our project.
 - Once it is installed, you will notice that there is a folder created named `node_modules`. Inside it there will be many sub-folders which contains different node modules required for our node module, ***lite-server***.
+- Open the package.json in your editor and add these two lines inside the ***"scripts":{ }*** and save it.
+```
+"start": "npm run lite",
+"lite": "lite-server",
+```
+Now, it should look like as shown below.
+```
+"scripts": { 
+  "start": "npm run lite",
+  "lite": "lite-server",
+  "test": "echo \"Error: no test specified\" && exit 1"
+}
+```
+- You can now start the development server by the command `npm start` inside the terminal.
+- This should open your `index.html` page in your default browser.
