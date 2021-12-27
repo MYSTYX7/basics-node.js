@@ -54,3 +54,8 @@ Now, it should look like as shown below.
 ```
 - You can now start the development server by the command `npm start` inside the terminal.
 - This should open your `index.html` page in your default browser.
+
+### Excluding node_modules folder from uploading to online repository
+- Create a file in your project directory called `.gitignore` and type `node_modules` inside and save it. This will ignore the ***node_modules*** from uploading to repository.
+- Then do a git commit and push the changes to the online repository. You will note that the node_modules folder will not be added to the commit, and will not be uploaded to the repository.
+- This is done because the node modules can always be recreated by typing `npm install` at our command prompt. And then based upon the dev dependencies and dependencies that are listed in the packager file, all the node modules that your project depends on will automatically be installed.
