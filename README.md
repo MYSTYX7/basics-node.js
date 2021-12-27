@@ -1,6 +1,6 @@
 # Basics of Node.JS
 ## Installing Node.JS
-- Download latest version of Node.JS from [official website](https://nodejs.org/en/) according to user PC specifactions.
+- Download latest version of Node.JS from [official website](https://nodejs.org/en/) according to user PC specifications.
 > You may need to configure your PATH environmental variable in case you forgot to turn on the add to PATH during the installation steps.
 - Open any terminal (cmd or Win Powershell) and type `node -v` and `npm -v` to check for the versions.
 
